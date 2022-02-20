@@ -7,10 +7,11 @@ import {
   NavbarIcons,
   NavbarWrapper,
   NotificationIcon,
+  PortfolioIcon,
   TopIconBadge,
 } from "./styles";
-import { IoNotificationsOutline, IoSettingsOutline } from "react-icons/io5";
-import { FiUser } from "react-icons/fi";
+import { IoNotificationsOutline } from "react-icons/io5";
+import { FiUser, FiPieChart } from "react-icons/fi";
 const Navbar = () => {
   return (
     <NavbarHeader>
@@ -21,7 +22,9 @@ const Navbar = () => {
         <NavbarEnd>
           <NavbarIcons>
             <NavbarIcon>
-              <IoSettingsOutline />
+              <PortfolioIcon>
+                <FiPieChart />
+              </PortfolioIcon>
             </NavbarIcon>
             <NavbarIcon>
               <NotificationIcon>

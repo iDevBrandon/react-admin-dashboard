@@ -16,7 +16,7 @@ export const FeaturedItem = styled.div`
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: inherit;
 
   @media screen and (min-width: 480px) {
     /* margin: 0px 20px; */
@@ -33,11 +33,15 @@ export const FeaturedMoneyContainer = styled.div`
   margin: 10px 0px;
   display: flex;
   align-items: center;
+  flex-direction: column-reverse;
+
+  @media screen and (min-width: 480px) {
+    flex-direction: row;
+  }
 `;
 
 export const FeaturedMoneyRate = styled.span`
-  display: flex;
   align-items: center;
-  margin-left: 20px;
+
   color: red;
 `;

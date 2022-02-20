@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
 export const SidebarContainer = styled.aside`
-  flex: 1;
-  background-color: #f6f7fb;
-  height: 100vh;
+  display: none;
+  @media screen and (min-width: 480px) {
+    display: block;
+     width: 100%;
+    background-color: #f6f7fb;
+    height: 100vh;
 
-  position: fixed;
-  /* top: 0; */
-  overflow-x: hidden;
-  top: 50px;
+    position: fixed;
+    /* top: 0; */
+    overflow-x: hidden;
+    top: 50px;
+  }
 `;
 
 export const SidebarWrapper = styled.div``;

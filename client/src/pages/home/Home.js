@@ -5,7 +5,7 @@ import "./styles";
 import { HomeContainer, HomeWidgets } from "./styles";
 import { portfolioData } from "../../dummyData";
 import SmallWidget from "../../components/Widgets/WatchlistWidget/WatchlistWidget";
-import LargeWidget from "../../components/Widgets/LargeWidget/LargeWidget";
+import LargeWidget from "../../components/Widgets/TransactionWidget/TransactionWidget";
 
 const Home = () => {
   return (

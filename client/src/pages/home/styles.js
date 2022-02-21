@@ -6,4 +6,9 @@ export const HomeContainer = styled.div`
 
 export const HomeWidgets = styled.div`
   display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 480px) {
+    flex-direction: row;
+  }
 `;

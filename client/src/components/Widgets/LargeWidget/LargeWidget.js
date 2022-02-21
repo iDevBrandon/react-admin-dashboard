@@ -1,8 +1,10 @@
 import React from "react";
-import { LargeWidgetContainer } from "./styles";
+import { TransactionWidgetContainer } from "./styles";
 
-const LargeWidget = () => {
-  return <LargeWidgetContainer>Trade Trasctions</LargeWidgetContainer>;
+const TransactionWidget = () => {
+  return (
+    <TransactionWidgetContainer>Trade Trasctions</TransactionWidgetContainer>
+  );
 };
 
-export default LargeWidget;
+export default TransactionWidget;

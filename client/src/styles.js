@@ -20,10 +20,12 @@ export const MainContent = styled.div`
   background: #ffffff;
   position: absolute;
   top: 0;
+  width: 100%;
 
   /* width: 100%; */
 
   @media screen and (min-width: 480px) {
     left: 208px;
+    width: unset;
   }
 `;

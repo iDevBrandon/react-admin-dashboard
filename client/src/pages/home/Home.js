@@ -4,7 +4,7 @@ import FeaturedInfo from "../../components/FeaturedInfo/FeaturedInfo";
 import "./styles";
 import { HomeContainer, HomeWidgets } from "./styles";
 import { portfolioData } from "../../dummyData";
-import SmallWidget from "../../components/Widgets/SmallWidget/SmallWidget";
+import SmallWidget from "../../components/Widgets/WatchlistWidget/WatchlistWidget";
 import LargeWidget from "../../components/Widgets/LargeWidget/LargeWidget";
 
 const Home = () => {

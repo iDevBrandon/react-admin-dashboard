@@ -11,6 +11,7 @@ import { BsFillBarChartFill, BsNewspaper } from "react-icons/bs";
 import { RiExchangeFill, RiMoneyDollarCircleLine } from "react-icons/ri";
 import { IoMdSettings } from "react-icons/io";
 import { IoWallet } from "react-icons/io5";
+import { FiBookOpen } from "react-icons/fi";
 
 const Sidebar = () => {
   return (
@@ -23,6 +24,12 @@ const Sidebar = () => {
                 <BsFillBarChartFill />
               </SidebarIcon>
               Dashboard
+            </SidebarListItem>
+            <SidebarListItem>
+              <SidebarIcon>
+                <FiBookOpen />
+              </SidebarIcon>
+              Portfolio
             </SidebarListItem>
             <SidebarListItem>
               <SidebarIcon>

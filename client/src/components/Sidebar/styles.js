@@ -4,7 +4,7 @@ export const SidebarContainer = styled.aside`
   display: none;
   @media screen and (min-width: 480px) {
     display: block;
-     width: 100%;
+    width: 100%;
     background-color: #f6f7fb;
     height: 100vh;
 
@@ -41,4 +41,6 @@ export const SidebarListItem = styled.li`
 
 export const SidebarIcon = styled.div`
   margin-right: 3px;
+  display: flex;
+  align-items: center;
 `;
